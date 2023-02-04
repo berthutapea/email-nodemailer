@@ -3,7 +3,7 @@ const nodemailer = require('nodemailer');
 // membuat transporter (koneksi ke email)
 const transporter = nodemailer.createTransport({
   host: 'info@msnproduction.com', // isikan sesuai email Anda
-  port: 587,
+  port: 465,
   secure: false,
   auth: {
     user: 'info@msnproduction.com', // isikan email Anda
