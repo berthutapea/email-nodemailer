@@ -1,0 +1,164 @@
+/*--------------------------------------------------------------
+# Kontak
+--------------------------------------------------------------*/
+.kontak .info-wrap {
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+.kontak .info {
+    background: #fff;
+}
+
+.section-kontak {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.section-kontak h2 {
+    margin: 15px 0 0 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #1100ff;
+}
+
+.section-kontak h2 span {
+    color: #5f5950;
+}
+
+.kontak .info i {
+    font-size: 20px;
+    color: #fff6e8;
+    float: left;
+    width: 44px;
+    height: 44px;
+    background: #1100ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+}
+
+.kontak .info h4 {
+    padding: 0 0 0 60px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #433f39;
+    font-family: "Poppins", sans-serif;
+}
+
+.kontak .info p {
+    padding: 0 0 0 60px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #5f5950;
+}
+
+.kontak .info:hover i {
+    background: #5f5950;
+    color: #fff;
+}
+
+.kontak .php-email-form {
+    width: 100%;
+    box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+    padding: 30px;
+    background: #fff;
+}
+
+.kontak .php-email-form .form-group {
+    padding-bottom: 8px;
+}
+
+.kontak .php-email-form .error-message {
+    display: none;
+    color: #fff;
+    background: #ed3c0d;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.kontak .php-email-form .sent-message {
+    display: none;
+    color: #fff;
+    background: #18d26e;
+    text-align: center;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.kontak .php-email-form .loading {
+    display: none;
+    background: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.kontak .php-email-form .loading:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    margin: 0 10px -6px 0;
+    border: 3px solid #18d26e;
+    border-top-color: #eee;
+    -webkit-animation: animate-loading 1s linear infinite;
+    animation: animate-loading 1s linear infinite;
+}
+
+.kontak .php-email-form input,
+.kontak .php-email-form textarea {
+    border-radius: 5;
+    box-shadow: none;
+    font-size: 14px;
+}
+
+.kontak .php-email-form input {
+    height: 44px;
+}
+
+.kontak .php-email-form textarea {
+    padding: 10px 12px;
+}
+
+.kontak .php-email-form button[type=submit] {
+    background: #1100ff;
+    border: 0;
+    padding: 10px 24px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+}
+
+.kontak .php-email-form button[type=submit]:hover {
+    background: #4c4c50;
+}
+
+@-webkit-keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.map {
+    height: 100%;
+    margin-top: 70px;
+}
