@@ -43,8 +43,8 @@ http.createServer((req, res) => {
             let transporter = nodemailer.createTransport({
                 service: 'gmail',
                 auth: {
-                    user: 'info@msnproduction.com',
-                    pass: 'i95}w+z[MoC^'
+                    user: '',
+                    pass: ''
                 }
             });
 
