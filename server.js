@@ -24,15 +24,15 @@ app.post('/', (req, res) => {
     //     }
     // })
 
-    const transporter = nodemailer.createTransport({
-        host: '',
-        port: 587,
-        // secure: true,
-        auth: {
-            user: '',
-            pass: ''
-        }
-    })
+    // const transporter = nodemailer.createTransport({
+    //     host: '',
+    //     port: 587,
+    //     // secure: true,
+    //     auth: {
+    //         user: '',
+    //         pass: ''
+    //     }
+    // })
 
     const mailOptions = {
         from: req.body.email,
