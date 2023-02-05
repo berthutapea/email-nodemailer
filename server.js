@@ -24,22 +24,22 @@ app.post('/', (req, res) => {
     //     }
     // })
 
-    // const transporter = nodemailer.createTransport({
-    //     host: '',
-    //     port: 587,
-    //     // secure: true,
-    //     auth: {
-    //         user: '',
-    //         pass: ''
-    //     }
-    // })
+    const transporter = nodemailer.createTransport({
+        host: '',
+        port: 587,
+        // secure: true,
+        auth: {
+            user: '',
+            pass: ''
+        }
+    })
 
-    const mailOptions = {
-        from: req.body.email,
-        to: '',
-        subject: `Message from ${req.body.email}: ${req.body.subject}`,
-        text: req.body.message
-    }
+    // const mailOptions = {
+    //     from: req.body.email,
+    //     to: '',
+    //     subject: `Message from ${req.body.email}: ${req.body.subject}`,
+    //     text: req.body.message
+    // }
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
