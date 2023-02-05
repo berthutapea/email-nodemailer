@@ -16,13 +16,13 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
     console.log(req.body);
 
-    // const transporter = nodemailer.createTransport({
-    //     service: 'gmail',
-    //     auth: {
-    //         user: 'ramdanialdi0104@gmail.com',
-    //         pass: 'cyaavfgzlwqpskrr'
-    //     }
-    // })
+    const transporter = nodemailer.createTransport({
+        service: 'gmail',
+        auth: {
+            user: 'ramdanialdi0104@gmail.com',
+            pass: 'cyaavfgzlwqpskrr'
+        }
+    })
 
     // const transporter = nodemailer.createTransport({
     //     host: 'smtp.mail.msnproduction.com',
