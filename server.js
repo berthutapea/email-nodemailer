@@ -34,12 +34,12 @@ app.post('/', (req, res) => {
         }
     })
 
-    const mailOptions = {
-        from: req.body.email,
-        to: '',
-        subject: `Message from ${req.body.email}: ${req.body.subject}`,
-        text: req.body.message
-    }
+    // const mailOptions = {
+    //     from: req.body.email,
+    //     to: '',
+    //     subject: `Message from ${req.body.email}: ${req.body.subject}`,
+    //     text: req.body.message
+    // }
 
     transporter.sendMail(mailOptions, (error, info) => {
         if (error) {
