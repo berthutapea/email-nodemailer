@@ -7,12 +7,12 @@ let message = document.getElementById('message');
 contactForm.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    // let formData = {
-    //     name: name.value,
-    //     email: email.value,
-    //     subject: subject.value,
-    //     message: message.value
-    // }
+    let formData = {
+        name: name.value,
+        email: email.value,
+        subject: subject.value,
+        message: message.value
+    }
 
     let xhr = new XMLHttpRequest();
     xhr.open('POST', '/');
