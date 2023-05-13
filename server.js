@@ -32,7 +32,7 @@ app.post('/', (req, res) => {
             user: '',
             pass: ''
         }
-    })
+    });
 
     const mailOptions = {
         from: req.body.email,
